@@ -1,0 +1,1110 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../fonts/Noto/NotoSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir/AvenirLTStd-Book.otf');
+}
+
+.error {
+    border: 2px solid #ff0000 !important;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+.gradient {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+}
+
+.gradientmin {
+    display: none;
+}
+
+.min {
+    display: none !important;
+}
+
+.privacybox {
+    display: none;
+}
+
+a {
+    position: relative;
+    z-index: 5;
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    border-bottom: 1px solid;
+    font-family: 'Noto Sans';
+    transition: 1s;
+}
+
+a:hover {
+    border: none;
+    transition: 1s;
+}
+
+button {
+    cursor: pointer;
+}
+
+input,
+button,
+textarea {
+    position: relative;
+    z-index: 10;
+}
+
+p {
+    color: #ffffff;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+h1 {
+    font-size: 64px;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 51px;
+    color: #ffffff;
+}
+
+h3 {
+    font-size: 35px;
+    color: #ffffff;
+}
+
+body {
+    background-color: #000000;
+}
+
+header {
+    padding: 23px 0 0 85px;
+}
+
+.logo {
+    padding-right: 108px;
+}
+
+.logo__img {
+    margin-right: 8px;
+}
+
+.login {
+    margin-right: 12px;
+}
+
+.topSlogan {
+    width: 643px;
+    padding: 0 0 269px 100px;
+}
+
+.topSlogan h1 {
+    padding: 143px 0 88px;
+}
+
+.topSlogan__text {
+    display: flex;
+    align-items: flex-end;
+}
+
+.topSlogan__text p {
+    padding-left: 31px;
+}
+
+.phone1 {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    right: 45.06px;
+}
+
+.phone2 {
+    z-index: 2;
+    position: absolute;
+    top: 1481px;
+}
+
+.phone3 {
+    z-index: 2;
+    position: absolute;
+    left: 75px;
+    top: 2857px;
+}
+
+.phone4 {
+    z-index: 2;
+    position: absolute;
+    left: 402px;
+    top: 2857px;
+}
+
+.phone5 {
+    z-index: 2;
+    position: absolute;
+    left: 638px;
+    top: 4774px;
+}
+
+.phone6 {
+    z-index: 2;
+    position: absolute;
+    left: 1051px;
+    top: 5115px;
+}
+
+.phone7 {
+    z-index: 2;
+    position: absolute;
+    left: 563px;
+    top: 5824px;
+}
+
+.phone8 {
+    z-index: 2;
+    position: absolute;
+    left: 311px;
+    top: 7059px;
+}
+
+.phone9 {
+    z-index: 3;
+    position: absolute;
+    left: 290.06px;
+    top: 8406px;
+}
+
+.phone1min,
+.phone2min {
+    display: none;
+}
+
+.photo1 {
+    z-index: 2;
+    width: 100%;
+    position: absolute;
+    top: 2470px;
+}
+
+.photo2 {
+    z-index: 2;
+    position: absolute;
+    right: 114.87px;
+    top: 3809px;
+}
+
+.photo3 {
+    z-index: 2;
+    position: absolute;
+    top: 4554px;
+}
+
+.photo4 {
+    z-index: 2;
+    position: absolute;
+    right: 0;
+    top: 4549px;
+}
+
+.photo5 {
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    top: 4537px;
+}
+
+.photo6 {
+    z-index: 2;
+    position: absolute;
+    left: 939px;
+    top: 6020px;
+}
+
+.photo7 {
+    z-index: 2;
+    position: absolute;
+    left: 925px;
+    top: 6108px;
+}
+
+.photo8 {
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    top: 8077px;
+}
+
+.photo9 {
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    top: 8077px;
+}
+
+.app {
+    position: relative;
+    z-index: 3;
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.app1 {
+    display: flex;
+    align-items: flex-start;
+    padding: 0 0 8.35px 13.64px;
+    width: 163.53px;
+    height: 51.33px;
+    border: 1.28315px solid #ffffff;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.app1__logo {
+    padding: 11.19px 9.2px 0 0;
+}
+
+.app1__name {
+    padding: 0 13.91px 8.35px 0;
+}
+
+.app2 {
+    display: flex;
+    align-items: flex-start;
+    padding: 0 0 7.6px 13.64px;
+    width: 184.5px;
+    height: 51.33px;
+    border: 1.28315px solid #ffffff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 0 163px 24.67px 27.97px;
+}
+
+.cookie {
+    padding: 0;
+    width: 100%;
+    padding: 0 24px 0 100px;
+    margin-bottom: 61px;
+    background-color: #212834;
+    background-clip: padding-box;
+    height: 93px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.cookie p {
+    font-size: 14px;
+}
+
+.cookie button {
+    color: #ffffff;
+    width: 132px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 0.5px solid #ffffff;
+    border-radius: 6px;
+}
+
+.contact {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact_box {
+    padding-left: 55px;
+    display: inline;
+    align-items: center;
+    margin: 0 40.5px;
+    width: 503px;
+    height: 312px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 21.3671px;
+    display: flex;
+    align-items: center;
+}
+
+.contact a {
+    font-size: 24px;
+}
+
+.contact p {
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.text {
+    font-size: 18px;
+    padding-top: 23px;
+    box-sizing: content-box;
+}
+
+.mission {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.mission div {
+    width: 358px;
+    padding: 236px 163px 0 0;
+}
+
+.Scanner {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.Scanner div {
+    width: 316px;
+    padding: 1323px 97px 0 0;
+}
+
+.Integration {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+
+.Integration div {
+    width: 497px;
+    padding: 364px 0 0 100px;
+}
+
+.code {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+
+.code div {
+    width: 497px;
+    padding: 959px 0 0 181px;
+}
+
+.code p {
+    font-size: 18px;
+    padding: 23px 0 58px;
+    box-sizing: content-box;
+}
+
+.App {
+    position: relative;
+    z-index: 3;
+    padding-left: 91px;
+    display: flex;
+}
+
+.GeneratCode {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+
+.GeneratCode div {
+    padding: 1130.67px 100px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.GeneratCode p {
+    font-size: 18px;
+}
+
+.ordering {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.ordering div {
+    width: 421px;
+    padding: 192px 160px 0 0;
+}
+.advantage p {
+    font-family: 'Roboto';
+    box-sizing: border-box;
+    background: #000000;
+    border: 0.76007px solid rgba(255, 255, 255, 0.5);
+    border-radius: 18.2417px;
+    font-size: 22.8px;
+}
+
+.advantage__1 {
+    position: relative;
+    z-index: 3;
+    width: 266.78px;
+    margin: 204px 0 56.19px 786px;
+    padding: 23px 22.78px 21.61px 22px;
+}
+
+.advantage__2 {
+    position: relative;
+    z-index: 3;
+    width: 285px;
+    margin: 0 0 167px 287px;
+    padding: 26px 30px 26px 29px;
+}
+
+.advantage__3 {
+    position: relative;
+    z-index: 3;
+    width: 185px;
+    margin: 0 0 0 1006px;
+    padding: 19px 24px 18px 23px;
+}
+
+.advantage__4 {
+    position: relative;
+    z-index: 3;
+    width: 175.58px;
+    margin-left: 509px;
+    padding: 19px 25.16px 19.76px 25px;
+}
+
+.GetInTouch {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+
+.GetInTouch div {
+    padding-top: 1238.63px;
+    text-align: center;
+}
+
+.GetInTouch p {
+    padding-bottom: 82px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contacts__form {
+    width: 818px;
+}
+
+.contacts__form input,
+.contacts__form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 23px;
+    padding: 29px 23px;
+    background: #ffffff;
+    border: 1px solid #5c5c5c;
+    border-radius: 10px;
+    font-family: 'Noto Sans';
+    font-size: 18px;
+    color: #bfbfbf;
+}
+
+.contacts__form__City {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__form__City input {
+    width: 397px;
+}
+
+.contacts__form textarea {
+    height: 199px;
+}
+
+.contacts__form button {
+    color: #ffffff;
+    background: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 25px 167px;
+    margin: 37px 210px 0;
+    font-size: 24px;
+    font-family: 'Montserrat';
+}
+
+.app--end {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+}
+
+.app--end h3 {
+    text-align: center;
+    padding: 91px 0 32.73px;
+}
+
+.app--end__logo {
+    display: flex;
+    justify-content: center;
+}
+
+.app1--end {
+    display: flex;
+    align-items: flex-start;
+    padding: 0 0 19.32px 21.6px;
+    width: 258.93px;
+    height: 81.27px;
+    border: 2.03168px solid #ffffff;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.app1--end__logo {
+    padding: 17.72px 14.56px 0 0;
+}
+
+.app1--end__text {
+    padding: 17.15px 0 0;
+}
+
+.app1--end__name {
+    padding: 0 22.03px 13.23px 0;
+}
+
+.app2--end {
+    display: flex;
+    align-items: flex-start;
+    padding: 0 0 12.03px 21.59px;
+    width: 292.13px;
+    height: 81.27px;
+    border: 2.03168px solid #ffffff;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-left: 59.07px;
+}
+
+footer {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 100px 0 99px;
+}
+
+footer p {
+    font-size: 18px;
+    font-family: 'Avenir';
+}
+
+.adress {
+    padding: 16.18px 0 19.15px;
+}
+
+.Privacy {
+    padding-top: 25px;
+}
+
+@media screen and (max-width: 375px) {
+*{
+    box-sizing: border-box;
+}
+
+    header {
+        padding: 40px 15px 0 15px;
+        justify-content: space-between;
+    }
+
+    h1 {
+        font-size: 35px;
+        color: #ffffff;
+    }
+
+    h2 {
+        font-size: 24px;
+        color: #ffffff;
+    }
+
+    h3 {
+        font-size: 24px;
+        color: #ffffff;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .phone1,
+    .phone2,
+    .phone3,
+    .phone4,
+    .phone5,
+    .phone6,
+    .phone7,
+    .phone8,
+    .phone9,
+    .photo1,
+    .photo2,
+    .photo3,
+    .photo4,
+    .photo5,
+    .photo6,
+    .photo7,
+    .photo8,
+    .photo9 {
+        display: none;
+    }
+
+    .min {
+        display: flex !important;
+    }
+
+    .logo__img {
+        width: 51.73px;
+    }
+
+    .logo__name {
+        width: 46.41px;
+    }
+
+    .login {
+        display: none;
+    }
+
+    .login__text {
+        font-size: 14px;
+    }
+
+    .gradient {
+        display: none;
+    }
+
+    .gradientmin {
+        display: block;
+        z-index: 1;
+        position: absolute;
+        width: 100%;
+    }
+
+    .phone1min {
+        display: block;
+        position: absolute;
+        z-index: 2;
+        right: 0;
+    }
+
+    .phone2min {
+        padding: 64.06px 28.8px 0;
+    }
+
+    .phone3min {
+        padding: 70px 44px 124.15px;
+    }
+
+    .phone4min {
+        position: relative;
+        z-index: 3;
+        padding: 220px 47px 130.59px;
+    }
+
+    .phone5min {
+        margin-top: 20px;
+        position: relative;
+        z-index: 4;
+    }
+
+    .phone6min {
+        position: absolute;
+        z-index: 2;
+        margin-top: 165px;
+    }
+
+    .phone1 {
+        display: none;
+        right: 0;
+    }
+
+    .topSlogan {
+        width: 375px;
+        position: relative;
+        z-index: 2;
+        padding: 98.31px 0 0 15px;
+    }
+
+    .topSlogan h1 {
+        padding: 0 0 24px 0;
+        width: 207px;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .topSlogan__text p {
+        padding: 0 0 113px 0;
+        width: 240px;
+    }
+
+    .app {
+        position: relative;
+        z-index: 3;
+        padding: 0;
+        display: block;
+        padding: 0;
+    }
+
+    .app h3 {
+        padding: 0;
+        text-align: center;
+    }
+
+    .app__img {
+        padding: 34px 95px 0;
+    }
+
+    .app__img1 {
+        display: flex;
+        justify-content: center;
+        width: 185px;
+        height: 60px;
+        border: 1.28315px solid #ffffff;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+
+    .app__img1__logo {
+        padding: 14px 9.2px 14px 25px;
+    }
+
+    .app__img1__text,
+    .app__img1__text {
+        padding-top: 14px;
+    }
+
+    .app__img2 {
+        display: flex;
+        align-items: flex-start;
+        padding: 0 0 7.6px 13.64px;
+        width: 185px;
+        height: 60px;
+        border: 1.28315px solid #ffffff;
+        border-radius: 10px;
+        box-sizing: border-box;
+        margin: 24px 0 0;
+    }
+
+    .max {
+        display: none !important;
+    }
+
+    .contact {
+        margin: 50px 15px 0;
+        display: block;
+    }
+
+    .contact_box {
+        position: relative;
+        z-index: 2;
+        padding: 39px 0 40px 33px;
+        display: inline;
+        align-items: center;
+        margin: 0 0 30px;
+        box-sizing: border-box;
+        width: 345px;
+        height: auto;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        border-radius: 21.3671px;
+        display: flex;
+        align-items: center;
+    }
+
+    .contact a {
+        font-size: 18px;
+    }
+
+    .contact p {
+        padding-bottom: 30px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 41px;
+    }
+
+    .text {
+        font-size: 16px;
+        padding-top: 24px;
+        box-sizing: content-box;
+    }
+
+    .mission {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        justify-content: end;
+        width: 100%;
+    }
+
+    .mission div {
+        width: 345px;
+        padding: 40px 0 0 15px;
+    }
+
+    .cookie {
+        padding: 0;
+        width: 100%;
+        padding: 23px 15px 24px;
+        margin-bottom: 61px;
+        background-color: #212834;
+        background-clip: padding-box;
+        height: 93px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+
+    .cookie p {
+        font-size: 12px;
+        width: 249px;
+        font-family: 'Noto Sans';
+        line-height: 1.5;
+    }
+
+    .cookie button {
+        color: #ffffff;
+        width: 92px;
+        height: 50px;
+        background: rgba(255, 255, 255, 0.1);
+        border: 0.5px solid #ffffff;
+        border-radius: 6px;
+        font-family: 'Noto Sans';
+        font-size: 14px;
+    }
+
+    .Scanner {
+        position: relative;
+        z-index: 2;
+        width: 100%;
+        display: flex;
+        justify-content: start;
+    }
+
+    .Scanner div {
+        width: 316px;
+        padding: 167px 0 0 15px;
+    }
+
+    .Integration {
+        position: relative;
+        z-index: 2;
+        width: 100%;
+    }
+
+    .Integration div {
+        width: 375px;
+        padding: 0 0 0 15px;
+    }
+
+    .code {
+        position: relative;
+        z-index: 2;
+        width: 100%;
+    }
+
+    .code div {
+        width: 375px;
+        padding: 241.82px 0 0 15px;
+    }
+
+    .code p {
+        font-size: 16px;
+        padding: 24px 0 24px;
+        box-sizing: border-box;
+    }
+
+    .GeneratCode {
+        position: relative;
+        z-index: 2;
+        width: 100%;
+    }
+
+    .GeneratCode div {
+        padding: 0 0 0 15px;
+        display: block;
+    }
+
+    .GeneratCode p {
+        margin-top: 24px;
+        font-size: 16px;
+    }
+
+    .ordering {
+        position: relative;
+        z-index: 2;
+        width: 100%;
+        display: flex;
+        justify-content: start;
+    }
+
+    .ordering div {
+        width: 421px;
+        padding: 86px 0 0 15px;
+    }
+
+    .advantage p {
+        font-family: 'Roboto';
+        box-sizing: border-box;
+        background: #000000;
+        border: 0.76007px solid rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
+        font-size: 14px;
+    }
+
+    .advantage__1 {
+        position: relative;
+        z-index: 3;
+        width: 170px;
+        margin: 65px 0 32px 39px;
+        padding: 13px 14px 12px 15px;
+    }
+
+    .advantage__2 {
+        position: relative;
+        z-index: 3;
+        width: 173px;
+        margin: 0 0 240px 185px;
+        padding: 15px 17px 15px 18px;
+    }
+
+    .advantage__3 {
+        position: absolute;
+        z-index: 3;
+        width: 120px;
+        margin: 83px 0 0 238px;
+        padding: 14px 15px 13px;
+    }
+
+    .advantage__4 {
+        position: absolute;
+        z-index: 3;
+        width: 110px;
+        margin-left: 35px;
+        padding: 14px 15px 13px;
+    }
+
+    .GetInTouch div {
+        padding-top: 220px;
+        text-align: center;
+    }
+
+    .GetInTouch p {
+        padding-bottom: 49px;
+    }
+
+    form {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contacts__form {
+        width: 345px;
+    }
+
+    .contacts__form input,
+    .contacts__form textarea {
+        box-sizing: border-box;
+        width: 100%;
+        margin-bottom: 16px;
+        padding: 18px 11px 17px;
+        background: #ffffff;
+        border: 1px solid #5c5c5c;
+        border-radius: 10px;
+        font-family: 'Noto Sans';
+        font-size: 18px;
+        color: #bfbfbf;
+    }
+
+    .contacts__form__City {
+        display: block;
+        justify-content: none;
+    }
+
+    .contacts__form__City input {
+        width: 345px;
+    }
+
+    .contacts__form textarea {
+        height: 140px;
+    }
+
+    .contacts__form button {
+        color: #ffffff;
+        background: #000000;
+        border: 1px solid #ffffff;
+        border-radius: 10px;
+        padding: 26px 140px;
+        margin: 40px 0 50px;
+        font-size: 24px;
+        font-family: 'Montserrat';
+    }
+
+    footer {
+        position: relative;
+        z-index: 3;
+        display: block;
+        justify-content: space-between;
+        text-align: center;
+        padding: 0;
+    }
+
+    footer p {
+        display: block !important;
+        font-size: 18px;
+        font-family: 'Avenir';
+    }
+
+    .privacybox {
+        display: block;
+        margin: 54px 0 14px;
+    }
+
+    .adress {
+        padding: 17px 0 9px;
+        font-size: 14px;
+    }
+
+    .Privacy {
+        padding: 14px 0 28px;
+    }
+}
